@@ -14,7 +14,7 @@ int main()
 
     // int a =1<<30;  //2^30 left shift
 
-    // std::cout<<"MAYANK SHREYA "<<std::endl;//using namespace 
+    // std::cout<<"MAYANK SHREYA "<<std::endl;//using namespace //std::cout is used to print
 
     // MAX+1=MIN
 

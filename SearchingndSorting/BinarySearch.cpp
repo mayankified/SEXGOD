@@ -49,6 +49,9 @@ int SearchLastIndex(vector<int> a, int target)
 //7> Floor of mid is used when we need to find the first index of target
 //8> L+(R-L)/2 for floor and L+(R-L+1)/2 for ceil
 
+//9> if r=mid then mid should be biased to left to avoid infinite loop
+//10> if l=mid then mid should be biased to right to avoid infinite loop
+
 
 int SearchFirstIndex(vector<int> a, int target){
     int l=0,r=a.size()-1;

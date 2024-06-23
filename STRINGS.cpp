@@ -31,7 +31,7 @@ signed main()
 
         // can you any vector func in string
 
-        // s.pop_back();
+        // s.pop_back(); 
         // s.push_back('m')
 
         cout

@@ -17,6 +17,8 @@ signed main()
 
     vector<int> a;//vector is ordered collection and can be resized
     //random access is possible, i.e. we can access any element in O(1) time
+    // vector<int> b(size,value) creates a vector of size 'size' and all elements are initialized to 'value'
+
     a.begin();//returns the iterator pointing to the first element
     a.end();//returns the iterator pointing to the last element
     a.push_back(1);//inserts element at the end
@@ -31,6 +33,10 @@ signed main()
     a.resize(5);//resizes the vector to the given size
     a.reserve(10);//reserves the memory for the given size
     a.shrink_to_fit();//reduces the capacity to the size of the vector
+
+    //2d vector
+    // vector<vector<int>> v={{1,2,3},{4,5,6},{7,8,9}};
+    //vector<vector<int> (column) > name (row)
 
     //SET/MAP
 
