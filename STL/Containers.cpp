@@ -50,14 +50,21 @@ signed main()
     cout << endl;
 
     s.count(1);//returns the number of elements equal to the given element
-    s.find(1);//returns the iterator pointing to the element
-    s.insert(6);//inserts the element   
-    s.erase(1);//erases the element
+    s.find(1);//returns the iterator pointing to the element,if not found returns s.end()
+    s.insert(6);//inserts the element   ,if the element is already present it will not insert,logn
+    s.erase(1);//erases the element,logn
     s.begin();//returns the iterator pointing to the first element
+    s.end();//returns the iterator pointing to the last element 
     s.erase(s.begin());//erases the element pointed by the iterator
     s.erase(s.begin(),s.end());//erases the elements in the given range
     s.erase(++s.begin());//erases the element pointed by the iterator
-    //set is always sorted in ascending order    
+    //set is always sorted in ascending order  
+
+    //unordered_set
+    unordered_set<int> us={1,4,2,3,5};//unordered_set is a container which stores unique elements in unsorted order,complexity is O(1)
+
+    //multiset
+    multiset<int> ms={1,4,2,3,5};//multiset is a container which stores multiple elements in sorted order  
 
 
     map<int ,char> mp;//map is a container which stores key value pairs
@@ -88,6 +95,9 @@ signed main()
     {
         cout<<"Key is not present"<<endl;
     }
+
+    //it->first is the key
+    //it->second is the value
 
 
     //unorderd_set/unordered_map

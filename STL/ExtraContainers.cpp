@@ -27,6 +27,27 @@ signed main()
     for(auto i:a)
         cout<<i<<" ";
     
+
+    //queue: FIFO
+    //push() to insert elemen
+    queue<int> q;
+    q.push(1);//inserts the element at the end
+    q.pop();//removes the first element
+    q.front();//returns the first element
+    q.back();//returns the last element
+    q.empty();//returns true if the queue is empty
+    q.size();//returns the size of the queue
+    q.swap(q);//swaps the elements of two queues
+
+
+    //stack: LIFO
+    stack<int> s;
+    s.push(1);//inserts the element at the top
+    s.pop();//removes the top element
+    s.top();//returns the top element
+    s.empty();//returns true if the stack is empty
+    s.size();//returns the size of the stack
+    s.swap(s);//swaps the elements of two stacks
     cout << endl;
     return 0;
 }

@@ -31,6 +31,9 @@ signed main()
     pq.push(3);
     pq.push(4);
     pq.push(5);
+    pq.pop();//removes the top element
+    pq.size();//returns the size of the priority queue
+    pq.top();//returns the top element
 
     while(!pq.empty())
     {
