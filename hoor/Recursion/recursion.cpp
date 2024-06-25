@@ -6,6 +6,7 @@ using namespace std;
 
 // Recursion is a technique in which a function calls itself
 // Strcuture: base case and recursive case
+//Used when solution can be broken down into smaller problems of same type
 
 // print 1 to n
 void printninc(int i, int n)
